@@ -1,0 +1,6 @@
+color theme 
+balck = #17252A
+dark = #2B7A78
+lighter = #3AAFA9
+LIGHT = #DEF2F1
+WHITE = #FEFFFF

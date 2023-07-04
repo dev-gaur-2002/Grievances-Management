@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* palette:{
+    primary:{
+       main: '#5c9ead',
+       dark: '#326273',
+    },
+    secondary:{
+        light: '#ffffff',
+        main: '#eeeeee',
+        dark: '#e39774',
+    },
+}, */
+
+.loginPageContainer{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: poppins;
+}
+
+.loginFormContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 4.5%; */
+    /* border: 2px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.top-left-heading{
+    margin-top: 2%;
+    font-size: 0.9rem;
+}
+.loginFormLeft{
+    width: 50%;
+    margin-left: 2%;
+    /* flex-grow: 2; */
+}
+.loginFormRight{
+    width: 50%;
+    /* flex-basis: 60%; */
+}
+.imageContainer{
+    height: 100%;
+}
+.loginFormRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0 20px 20px 0;
+    /* height: auto; */
+    /* object-fit:scale-down; */
+} 
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.login-form-heading{
+    margin: 10% 0;
+    /* border-radius: 20px; */
+}
+.login-form-heading :nth-child(1){
+    font-size: 2rem;
+}
+.login-form-heading :nth-child(2){
+    font-size: 0.8rem;
+    color: #808080;
+}
+.FormLabel{
+    color: black;
+}
+.remember{
+    font-size: 0.8rem;
+}
+.forgot-password{
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+    color: #2f7889;
+}
+.formFooter :nth-child(1){
+    color: #808080;
+    /* font-size: 0.9rem; */
+}
+.formFooter :nth-child(2){
+    color: #5c9ead;
+}
+
